@@ -1,6 +1,7 @@
 <template>
-  <div class="container">
-    <h2>Welcome to Dad Joke</h2>
+  <div>
+      <h2>About Page</h2>
+      <p>this example jsoke</p>
   </div>
 </template>
 
@@ -8,7 +9,7 @@
 export default {
   head(){
     return{
-      title:'Home',
+      title:'About',
       meta:[
         {
           hid:'description',
@@ -21,6 +22,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
 </style>
+
