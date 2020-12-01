@@ -40,5 +40,6 @@ ul{
   background-color: #fff;
   padding: 2rem auto;
   overflow: hidden;
+  border-radius: 10px;
 }
 </style>

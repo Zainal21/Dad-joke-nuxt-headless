@@ -14,7 +14,7 @@ export default {
         {
           hid:'description',
           name:'description',
-          content:'this exmaple dad joke'
+          content:'this is example for about page'
         }
       ]
     }
@@ -23,6 +23,8 @@ export default {
 </script>
 
 <style scoped>
-
+  h2, p{
+    margin: 0 20px;
+  }
 </style>
 

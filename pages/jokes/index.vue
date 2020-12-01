@@ -7,17 +7,18 @@
   </div>
 </template>
 
-<style scoped>
-
-</style>
-
 <script>
 import JokeList from '../../components/JokeList'
 import axios from 'axios'
 export default {
    data:()=>{
     return{
-      jokes:[]
+      jokes:[
+        {
+          id : 1,
+          joke:'test'
+        }
+      ]
     }
   },
   components:{
@@ -45,7 +46,7 @@ export default {
         {
           hid:'description',
           name:'description',
-          content:'dark joke'
+          content:'this example for dark joke list'
         }
       ]
     }

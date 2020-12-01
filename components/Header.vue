@@ -23,12 +23,17 @@ export default {
 
 <style scoped>
   .header{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-bottom:1rem ;
+    padding-bottom:2rem ;
     margin-bottom:1rem;
     border-bottom: 1px dotted #ccc;
+
+  }
+  .header h2{
+    margin: 0 20px;
   }
   .header .title{
     font-size: 3rem;

@@ -13,14 +13,15 @@ export default {
         {
           hid:'description',
           name:'description',
-          content:'this exmaple dad joke'
+          content:'this example dad joke'
         }
       ]
     }
   }
 }
 </script>
-
-<style>
-
+<style scoped>
+ h2{
+   margin: 0 20px;
+ }
 </style>
