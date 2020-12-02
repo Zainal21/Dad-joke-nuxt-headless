@@ -1,7 +1,7 @@
 <template>
-  <nuxt-link :to="'jokes/' + id">
+  <nuxt-link :to="'jokes/' + id" class="link">
     <div class="joke-list">
-      <p>{{joke}}</p>
+      <p><b>{{joke}}</b></p>
     </div>
   </nuxt-link>
 </template>
@@ -23,6 +23,9 @@
     padding: 1rem;
     border: 1px solid #ccc;
     margin: 1rem 0;
+  }
+  .link{
+    text-decoration: none;
   }
 
 </style>
