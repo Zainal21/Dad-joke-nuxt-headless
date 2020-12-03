@@ -74,7 +74,7 @@ export default {
           }
         
         try {
-          const response = await axios.get(`https://icanhazdadjoke.com/search?trim=${text}`, config)
+          const response = await axios.get(`https://icanhazdadjoke.com/search?term=${text}`, config)
           // console.log(response.data)
           this.jokes = response.data.results
         } catch (error) {
